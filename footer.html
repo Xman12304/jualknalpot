@@ -1,0 +1,56 @@
+<!--footer-->
+<footer class="w3-container w3-red w3-center w3-padding-16">
+  <h5 class="w3-text-white">&copy; 2017 PT.Knalpot Jaya</h5>
+</footer>
+
+<!--alert box-->
+		<script type="text/javascript">
+		function konfirmasi(){
+			var txt;
+			if(confirm("anda yakin ingin logout ??")==true){
+				window.location.href='logout.php';
+			}else{
+				txt="kamu batal logout";
+			}
+		}
+		</script>
+
+<script>
+function myFunction1(){
+	var x = document.getElementById("master");
+	
+	if(x.className.indexOf("w3-show")== -1){
+		x.className += " w3-show";
+	}else{
+		x.className = x.className.replace(" w3-show","");
+	}
+}
+
+</script>
+<script>
+function myFunction2(){
+	var x = document.getElementById("transaksi");
+	
+	if(x.className.indexOf("w3-show")== -1){
+		x.className += " w3-show";
+	}else{
+		x.className = x.className.replace(" w3-show","");
+	}
+}
+
+</script>
+<script>
+function myFunction3(){
+	var x = document.getElementById("laporan");
+	
+	if(x.className.indexOf("w3-show")== -1){
+		x.className += " w3-show";
+	}else{
+		x.className = x.className.replace(" w3-show","");
+	}
+}
+
+</script>
+
+</body>
+</html>
